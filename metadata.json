@@ -1,0 +1,42 @@
+{
+  "schema": "decision-lab-playground-artifact/1",
+  "build_id": "01b17a4af33203f0",
+  "files": {
+    "index.html": {
+      "sha256": "ef9ba32926003665fde98b1c5852777db53ff18bacebf5d9ffc1401e2e3a379e",
+      "bytes": 3863
+    },
+    "styles.css": {
+      "sha256": "35f61a26032e9754a0a60bfbdb34e62e802603df5d4420a3e582d578ab3530c5",
+      "bytes": 6860
+    },
+    "app.js": {
+      "sha256": "8ea0af075325a65746dbb90701c1005a17894b821a75f675ff2e3443d6a06866",
+      "bytes": 12034
+    },
+    "adapter.js": {
+      "sha256": "a7ebd2d1c4d558daa8c1cfd4abfae98dd9355247b3fc4bf2cbc466925b2908a9",
+      "bytes": 6036
+    },
+    "fixtures.js": {
+      "sha256": "f30d742f3f57288b637463b534a4b924b9ded192d58fd535f16a38f53238345d",
+      "bytes": 6349
+    },
+    "notices.txt": {
+      "sha256": "4cf26ba0ac8d05c9b331f804637b24f50d992b42304037eea5fbfe71aaf7e574",
+      "bytes": 1459
+    },
+    "lib/quote.js": {
+      "sha256": "05ca8ba7aa011079da74a6186f46d91fd1922989f36913e2a8686a6ec28eb767",
+      "bytes": 5455
+    },
+    "lib/shopops.js": {
+      "sha256": "272b2b4bb9cb7de74eb5fccd092dd6ee8f92223d690caa0453ff5a80a5eeb9b7",
+      "bytes": 5135
+    },
+    "lib/audit.js": {
+      "sha256": "328c88929328a22d69c2b9683c3884f9585729d9aa27bb509fb69dce151f9fdb",
+      "bytes": 8973
+    }
+  }
+}

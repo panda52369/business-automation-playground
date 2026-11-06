@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Decision Lab | Business workflow demos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="lib/quote.js"></script><script defer src="lib/shopops.js"></script><script defer src="lib/audit.js"></script>
+  <script defer src="fixtures.js"></script><script defer src="adapter.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <header class="mast"><div class="shell mast-inner"><a class="brand" href="#top"><span class="brand-mark">D</span> Decision Lab <span class="brand-sub">/ WORKFLOW DEMOS</span></a><span class="local-tag"><span></span> LOCAL SIMULATION</span></div></header>
+  <main id="top" class="shell">
+    <section class="intro"><p class="eyebrow">A HANDS-ON PLAYGROUND</p><h1>See the decision<br><em>behind the workflow.</em></h1><p>Explore three practical business decisions. Choose a scenario, change the inputs, and see how the rules respond.</p><div class="notice"><strong>Made for exploration.</strong> All examples are synthetic and run in this browser. Nothing is dispatched, emailed, scanned, or paid. Each run starts fresh.</div></section>
+    <section aria-labelledby="choose-title"><div class="section-head"><div><p class="eyebrow">01 / CHOOSE A WORKFLOW</p><h2 id="choose-title">What would you like to explore?</h2></div><span>THREE INTERACTIVE DEMOS</span></div><nav class="flow-nav" aria-label="Workflows"><button type="button" data-flow="quote" aria-pressed="true"><span class="flow-number">01</span><strong>Freight qualification</strong><small>Score a shipping inquiry</small><span class="arrow">↗</span></button><button type="button" data-flow="shop" aria-pressed="false"><span class="flow-number">02</span><strong>Order inventory</strong><small>Check reservations and holds</small><span class="arrow">↗</span></button><button type="button" data-flow="audit" aria-pressed="false"><span class="flow-number">03</span><strong>Freight audit</strong><small>Compare invoice to quote</small><span class="arrow">↗</span></button></nav></section>
+    <section class="workspace" aria-labelledby="workspace-title"><div class="section-head"><div><p class="eyebrow">02 / TRY A SCENARIO</p><h2 id="workspace-title">Freight qualification</h2></div><span>EDIT INPUTS · RUN RULES · EXPLORE</span></div><div class="workspace-grid"><div class="panel input-panel"><div class="panel-heading"><div><p class="eyebrow">INPUTS</p><h3>Build your scenario</h3></div><span class="step-icon">✳</span></div><label for="preset">Start with an example</label><select id="preset"></select><p id="preset-description" class="hint"></p><div id="fields"></div><div class="actions"><button type="button" class="primary" id="run">Run decision <span aria-hidden="true">→</span></button><button type="button" class="secondary" id="reset">Reset example</button></div><div id="errors" class="errors" tabindex="-1" hidden></div></div><aside class="panel result-panel" aria-labelledby="result-title"><div class="panel-heading"><div><p class="eyebrow">RESULT</p><h3 id="result-title">Decision output</h3></div><span class="result-indicator">LIVE RULES</span></div><div id="result" aria-live="polite" aria-atomic="true"><div class="empty"><span class="empty-icon">↗</span><h4>Ready when you are.</h4><p>Run a scenario to see the decision and the reasoning behind it.</p></div></div></aside></div></section>
+  </main><footer class="shell footer"><span>DECISION LAB <b> / </b> WORKFLOW DEMOS</span><span>Local, transient examples · No real-world actions</span></footer>
+</body></html>

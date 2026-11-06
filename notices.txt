@@ -1,0 +1,9 @@
+Playground notices
+
+The browser decision libraries (lib/quote.js, lib/shopops.js, lib/audit.js) are generated at build time from the repository's decision source by an explicit selection. Each file contains only the functions the playground calls (freight quote validation and rule scoring; order and seed validation and fresh-run inventory planning; invoice field parsing and invoice audit) plus the top-level declarations those functions require. Comments are removed, every other declaration is omitted, and each included declaration is AST-identical to its source. The build fails if a selected declaration needs a global the browser does not provide, or if the adapter calls anything other than the published functions.
+
+Existing copyright and third-party notices in the repository remain applicable. This playground does not state a reuse license for the repository's code and does not grant any rights beyond those that already apply.
+
+Fixtures are synthetic demonstrations derived from the repository's committed samples and unit tests. Contact addresses use reserved .example domains. Results describe local decisions only; no email delivery, payment, OCR, warehouse dispatch, or external service success occurs.
+
+Backend workflow runtimes, service integrations, messaging, storage, authentication and webhook code are not included in this browser artifact. The development-only test package and its browser engines are not published as site assets.
